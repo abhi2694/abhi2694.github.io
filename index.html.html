@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Heading</h3>
+    <button onclick="Runner()" id="clickButton">Click Me</button>
+
+    <p id="clickedText">A</p>
+
+    <script>
+        
+        function Runner(){
+            const x = 10;
+            x = x + 1;
+            document.getElementById('clickedText').innerHTML= x;
+            console.log(x)
+        }
+
+        
+        
+    </script>
+</body>
+</html>
